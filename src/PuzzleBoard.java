@@ -177,7 +177,7 @@ public class PuzzleBoard {
      * @return children This will be the child states of the current board states
      */
     public Iterable<PuzzleBoard> neighbours() {
-        LinkedList<PuzzleBoard>children=new LinkedList<>();
+        LinkedList<PuzzleBoard> children = new LinkedList<>();
         int [] zeroIndex = getZeroIndex();
 
         if(zeroIndex[0] > 0)
